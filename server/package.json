@@ -42,7 +42,11 @@
 		"moment": "^2.29.1",
 		"mongoose": "^6.2.4",
 		"querystringify": "^2.2.0",
-		"socket.io": "^4.5.1",
+		"socket.io": "^4.7.2",
 		"tslib": "^2.3.1"
+	},
+	"optionalDependencies": {
+		"bufferutil": "^4.0.7",
+		"utf-8-validate": "^5.0.10"
 	}
 }

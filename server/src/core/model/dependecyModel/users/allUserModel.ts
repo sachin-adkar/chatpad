@@ -1,4 +1,3 @@
-import { LoginRequest } from './../../request/users/loginRequest';
 import { Logger } from '../../../../middlewares/logger';
 import { Dep } from '../dep';
 

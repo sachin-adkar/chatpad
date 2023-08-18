@@ -59,4 +59,12 @@ export class ErrorCodes
 	public static InvalidAvatar: ErrorCode = { code: 'F21', description: 'Invalid avatar', error: 'BadRequest'};
 
 	public static FailedToUploadAvatar: ErrorCode = { code: 'F22', description: 'Avatar upload failed!', error: 'BadRequest'};
+
+	public static FailedToSaveMessage: ErrorCode = { code: 'F23', description: 'Failed to send the message', error: 'BadRequest'};
+
+	public static FailedToDeleteMessage: ErrorCode = { code: 'F24', description: 'Failed to delete the message', error: 'BadRequest'};
+
+	public static FailedToSaveConversation: ErrorCode = { code: 'F25', description: 'Failed to save the conversation', error: 'BadRequest'};
+
+	public static FailedToDeleteConversation: ErrorCode = { code: 'F26', description: 'Failed to delete the conversation', error: 'BadRequest'};
 }
