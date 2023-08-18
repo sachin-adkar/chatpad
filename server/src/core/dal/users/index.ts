@@ -31,7 +31,9 @@ export class User implements UserDal
 				{
 					email: user.email,
 					name: user.name,
-					password: user.password
+					password: user.password,
+					avatar: user.avatar,
+					isAvatarSet: user.isAvatarSet
 				};
 
 				return [ErrorCodes.OK, userDetails];
