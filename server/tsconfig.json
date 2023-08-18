@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+	  "target": "es2020",
+	  "module": "commonjs",
+	  "lib": [
+		"es2018"
+	  ],
+	  "allowJs": true,
+	  "sourceMap": true,
+	  "outDir": "./dist",
+	  "rootDirs": [
+		"./src",
+		"./test"
+	  ],
+	  "removeComments": true,
+	  "importHelpers": false,
+	  "strict": false,
+	  "noImplicitAny": true,
+	  "moduleResolution": "node",
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "resolveJsonModule": true,
+	  "downlevelIteration": true
+	},
+	"include": [
+		"src/index.ts",
+	  "./src",
+	  "./test",
+	  "./package.json",
+	  "./package-lock.json"
+, "server.ts"	],
+	"files": [
+	  "types.d.ts"
+	],
+	"incremental": true,
+	"typeAcquisition": {
+	  "enable": false
+	}
+  }
